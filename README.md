@@ -29,12 +29,20 @@ This extension contributes the following settings:
 * `phpGetterSetter.short`: Shorten Getter and Setter to be one line each. Default: false
 * `phpGetterSetter.redirect`: Redirect to generated functions after creating them. Default: false
 
+## Support and contribute [[&uarr;](#table-of-contents)]
+If you like the extension, you can support the project
+### Buy Me a Coffee
+[![Buy Me A Coffee](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png)](https://www.buymeacoffee.com/satiromarra)
+### PayPal
+[![PayPal Me](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/satiromarra)
+
+
 ## Release Notes
 
 ### 1.1.1
 
-* Fixed line reader https://github.com/r4ven1245/vscode-php-getter-setter/issues/2
-* Fixed namespace close bracket finder https://github.com/r4ven1245/vscode-php-getter-setter/issues/3
+* Fixed line reader https://github.com/satiromarra/vscode-php-getter-setter/issues/2
+* Fixed namespace close bracket finder https://github.com/satiromarra/vscode-php-getter-setter/issues/3
 
 ### 1.0.3
 

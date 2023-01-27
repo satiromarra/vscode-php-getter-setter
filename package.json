@@ -1,21 +1,21 @@
 {
-    "name": "vscode-php-getter-setter",
+    "name": "vscode-php8-getter-setter",
     "displayName": "PHP 8 Getter & Setter",
     "description": "Insert property Get and Set methods quickly",
-    "version": "1.1.1",
-    "publisher": "MykhailoKushnir",
-    "author": "Mykhailo Kushnir <mkv.ysk@gmail.com>",
+    "version": "1.1.4",
+    "publisher": "satiromarra",
+    "author": "Satiro Marra",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/r4ven1245/vscode-php-getter-setter"
+        "url": "https://github.com/satiromarra/vscode-php-getter-setter"
     },
     "bugs": {
-        "url": "https://github.com/r4ven1245/vscode-php-getter-setter/issues"
+        "url": "https://github.com/satiromarra/vscode-php-getter-setter/issues"
     },
     "icon": "images/icon.png",
     "engines": {
-        "vscode": "^1.18.0"
+        "vscode": "^1.54.0"
     },
     "categories": [
         "Other"
@@ -48,6 +48,11 @@
                     "type": "boolean",
                     "default": false,
                     "description": "Redirect to generated functions after creating them"
+                },
+                "phpGetterSetter.newlineopenbrace": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "New line before open brace on new functions"
                 }
             }
         },
@@ -106,13 +111,13 @@
         "vscode:prepublish": "npm run compile",
         "compile": "tsc -p ./",
         "watch": "tsc -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "npm run compile && node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
-        "@types/node": "^7.0.43",
-        "@types/mocha": "^2.2.42"
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^12.11.7",
+        "@types/vscode": "^1.54.0",
+        "typescript": "^4.1.3",
+        "vscode": "^0.9.9"
     }
 }
