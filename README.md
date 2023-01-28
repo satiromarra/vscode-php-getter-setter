@@ -22,6 +22,9 @@ It adds 3 comands to vscode's command palette:
 * Insert PHP setter.
 * Insert PHP getter and setter.
 
+![Setters & Getters](/images/set-and-get.gif?version%3D1674892473216)
+
+
 ## Extension Settings
 
 This extension contributes the following settings:
